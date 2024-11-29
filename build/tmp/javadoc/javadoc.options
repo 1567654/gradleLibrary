@@ -1,0 +1,17 @@
+-classpath 'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\build\\classes\\java\\main;C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\build\\resources\\main'
+-d 'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\build\\docs\\javadoc'
+-doctitle 'gradleLibrary 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'gradleLibrary 1.0-SNAPSHOT API'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\Book.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\BookCatalog.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\BookNotFoundException.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\Customer.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\Loan.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\LoanAlreadyExistsException.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\LoanNotFoundException.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\model\\Material.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\ui\\Main.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\utilities\\GenderType.java'
+'C:\\Users\\luohu\\java24\\submissions\\utvecklingsverktyg\\gradleLibrary\\src\\main\\java\\utilities\\LoanStatus.java'

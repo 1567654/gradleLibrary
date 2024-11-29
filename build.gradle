@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group = 'se.yrgo'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+defaultTasks('compileJava', 'compileTestJava', 'javadoc', 'build', 'jar', 'runLibrary')
+
+task runDefaultTasks {
+    dependsOn 'compileJava', 'compileTestJava', 'javadoc', 'build', 'jar', 'runLibrary'
+}
+
+task(runLibrary, dependsOn: 'classes', type: JavaExec) {
+    mainClass = 'ui.Main'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ui.Main'
+    }
+}
